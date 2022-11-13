@@ -2,7 +2,7 @@ package Tools;
 
 import Resources.Resources;
 
-public class SalvagedIcepick extends Tools {
+public class SalvagedIcepick extends ToolsCostCalculating {
     public double salvagedIcepickCost() {
         Resources resources = new Resources(0, 0, 0, 1, 5);
 

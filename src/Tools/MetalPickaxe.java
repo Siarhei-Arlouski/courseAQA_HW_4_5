@@ -2,7 +2,7 @@ package Tools;
 
 import Resources.Resources;
 
-public class MetalPickaxe extends Tools {
+public class MetalPickaxe extends ToolsCostCalculating {
     public double metalPickaxeCost() {
         Resources resources = new Resources(100, 0, 125, 0, 0);
 

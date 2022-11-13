@@ -2,7 +2,7 @@ package Tools;
 
 import Resources.Resources;
 
-public class StonePickaxe extends Tools {
+public class StonePickaxe extends ToolsCostCalculating {
     public double stonePickaxeCost() {
         Resources resources = new Resources(200, 100, 0, 0, 0);
 

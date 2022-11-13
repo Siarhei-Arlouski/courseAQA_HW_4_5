@@ -1,12 +1,13 @@
-import Tools.Tools;
+import Tools.ToolList;
+import Tools.ToolsCostCalculating;
 
 import java.io.IOException;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Tools tools = new Tools();
-        tools.toolsCost();
+        ToolsCostCalculating toolsCostCalculating = new ToolsCostCalculating();
+        toolsCostCalculating.toolsCost();
 
         System.out.println("Enter the number of tool to purchase: ");
         Scanner scanner = new Scanner(System.in);

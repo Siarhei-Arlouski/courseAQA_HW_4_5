@@ -2,7 +2,7 @@ package Tools;
 
 import Resources.Resources;
 
-public class SalvagedHammer extends Tools {
+public class SalvagedHammer extends ToolsCostCalculating {
     public double salvagedHammerCost() {
         Resources resources = new Resources(0, 0, 50, 1, 0);
 

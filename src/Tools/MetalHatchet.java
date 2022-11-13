@@ -2,7 +2,7 @@ package Tools;
 
 import Resources.Resources;
 
-public class MetalHatchet extends Tools {
+public class MetalHatchet extends ToolsCostCalculating {
     public double metalHatchetCost() {
         Resources resources = new Resources(100, 0, 75, 0, 0);
 

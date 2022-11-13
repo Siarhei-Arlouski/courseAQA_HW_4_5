@@ -1,6 +1,7 @@
 package Tools;
 
-public class Tools implements ToolsCost{
+public class ToolsCostCalculating implements ToolsCostCalculatingInterface {
+    @Override
     public void toolsCost() {
         Hammer hammer = new Hammer();
         StoneHatchet stoneHatchet = new StoneHatchet();
