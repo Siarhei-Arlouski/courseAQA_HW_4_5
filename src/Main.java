@@ -1,6 +1,4 @@
-import Tools.ToolList;
 import Tools.ToolsCostCalculating;
-
 import java.io.IOException;
 import java.util.Scanner;
 

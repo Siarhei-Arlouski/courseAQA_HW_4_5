@@ -1,11 +1,11 @@
 package Resources;
 
 public class Resources {
-    private double wood;
-    private double stone;
-    private double metalFragments;
-    private double metalPipe;
-    private double metalBlade;
+    private final double wood;
+    private final double stone;
+    private final double metalFragments;
+    private final double metalPipe;
+    private final double metalBlade;
 
     public Resources(double wood, double stone, double metalFragments, double metalPipe, double metalBlade) {
         this.wood = wood * 0.02;
